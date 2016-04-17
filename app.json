@@ -1,7 +1,7 @@
 {
   "name": "Elixir facebook chat echo bot",
   "description": "An elixir facebook chat echo bot, built with `facebook_messenger` hex library",
-  "repository": "https://github.com/oarrabi/elixir-echo-bot ",
+  "repository": "https://github.com/oarrabi/elixir-echo-bot",
   "logo": "https://d.ibtimes.co.uk/en/full/1469154/facebook-messenger.jpg?w=400",
   "keywords": ["elixir", "facebook", "messenger", "bot"]
 }
