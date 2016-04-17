@@ -1,9 +1,10 @@
-# Ex Echo Bot
+# Ex Echo Bot [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 Ex Echo Bot is an example of a facebook messenger bot that echos whats sent to it.
 
 # Usage
+The easist way is using Heroku deploy button (from above).
 
-To start your Phoenix app:
+Or manually, to start your Phoenix app:
 
   1. Install dependencies with `mix deps.get`
   2. Create and migrate your database with `mix ecto.create && mix ecto.migrate`
