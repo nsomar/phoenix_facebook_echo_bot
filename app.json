@@ -3,5 +3,31 @@
   "description": "An elixir facebook chat echo bot, built with `facebook_messenger` hex library",
   "repository": "https://github.com/oarrabi/elixir-echo-bot",
   "logo": "https://d.ibtimes.co.uk/en/full/1469154/facebook-messenger.jpg?w=400",
-  "keywords": ["elixir", "facebook", "messenger", "bot"]
+  "keywords": [
+    "elixir",
+    "facebook",
+    "messenger",
+    "bot"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/HashNuke/heroku-buildpack-elixir.git"
+    },
+    {
+      "url": "https://github.com/gjaldon/heroku-buildpack-phoenix-static.git"
+    }
+  ],
+  "env": {
+    "PAGE_TOKEN": {
+      "description": "The facebook page token",
+      "value": "PAGE_TOKEN"
+    },
+    "VERIFY_TOKEN": {
+      "description": "The facebook verify token",
+      "value": "VERIFY_TOKEN"
+    },
+    "SECRET_KEY_BASE": {
+      "generator": "secret"
+    }
+  }
 }
