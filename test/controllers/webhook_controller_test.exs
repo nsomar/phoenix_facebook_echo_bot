@@ -6,7 +6,7 @@ defmodule ExEchoBot.WebHookControllerTest do
   test "GET /api/webhook without query" do
     conn = get conn(), "/api/webhook"
     assert conn.status == 500
-    assert conn.resp_body == "{\"error\":{\"path\":\"/api/webhook\",\"params\":{}}}"
+    assert conn.resp_body == ""
   end
 
   test "GET /api/webhook with query" do

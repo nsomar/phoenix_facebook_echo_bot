@@ -7,7 +7,7 @@ config :ex_echo_bot, ExEchoBot.Endpoint,
   server: false
 
 # Print only warnings and errors during test
-config :logger, level: :warn
+config :logger, level: :info
 
 config :ex_echo_bot,
   verify_token: "123123",
@@ -18,4 +18,4 @@ config :facebook_messenger,
 
 config :facebook_messenger,
   facebook_page_token: "PAGE_TOKEN",
-  challange_verification_token: "123123"
+  challenge_verification_token: "123123"

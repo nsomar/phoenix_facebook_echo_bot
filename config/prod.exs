@@ -20,7 +20,7 @@ config :ex_echo_bot, ExEchoBot.Endpoint,
 
 config :facebook_messenger,
   facebook_page_token: System.get_env("PAGE_TOKEN"),
-  challange_verification_token: System.get_env("VERIFY_TOKEN")
+  challenge_verification_token: System.get_env("VERIFY_TOKEN")
 
 # Do not print debug messages in production
 config :logger, level: :info

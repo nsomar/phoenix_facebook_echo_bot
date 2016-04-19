@@ -17,7 +17,7 @@ defmodule ExEchoBot.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [mod: {ExEchoBot, []},
-     applications: [:phoenix, :phoenix_html, :cowboy, :logger, :postgrex, :httpotion]]
+     applications: [:phoenix, :cowboy, :logger, :phoenix_facebook_messenger]]
   end
 
   # Specifies which paths to compile per environment.
@@ -30,11 +30,8 @@ defmodule ExEchoBot.Mixfile do
   defp deps do
     [{:phoenix, "~> 1.1"},
      {:httpotion, "~> 2.2"},
-     {:postgrex, ">= 0.0.0"},
-     {:phoenix_html, "~> 2.1"},
-     {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:cowboy, "~> 1.0"},
-     {:facebook_messenger, "~> 0.1.0"}]
+     {:phoenix_facebook_messenger, ">= 0.1.0"}]
   end
 
 end

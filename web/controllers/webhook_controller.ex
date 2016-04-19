@@ -1,6 +1,6 @@
 
 defmodule ExEchoBot.WebHookController do
-  use FacebookMessenger.Controller
+  use FacebookMessenger.Phoenix.Controller
 
   def message_received(msg) do
     text = FacebookMessenger.Response.message_texts(msg) |> hd
