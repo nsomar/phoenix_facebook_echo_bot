@@ -1,5 +1,5 @@
-# Ex Echo Bot [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-Ex Echo Bot is an example of a facebook messenger bot that echos whats sent to it.
+# Phoenix facebook echo bot [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+Phoenix facebook echo bot is an example of a facebook messenger bot that echos whats sent to it.
 
 # Usage
 The easist way is using Heroku deploy button (from above).
